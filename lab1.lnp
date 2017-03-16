@@ -1,0 +1,27 @@
+--cpu Cortex-M4.fp
+".\main.o"
+".\stm32f4xx_it.o"
+".\system_stm32f4xx.o"
+".\startup_stm32f429_439xx.o"
+".\misc.o"
+".\stm32f4xx_adc.o"
+".\stm32f4xx_dma.o"
+".\stm32f4xx_dma2d.o"
+".\stm32f4xx_exti.o"
+".\stm32f4xx_fmc.o"
+".\stm32f4xx_gpio.o"
+".\stm32f4xx_i2c.o"
+".\stm32f4xx_ltdc.o"
+".\stm32f4xx_rcc.o"
+".\stm32f4xx_spi.o"
+".\stm32f4xx_syscfg.o"
+".\stm32f4xx_tim.o"
+".\stm32f4xx_usart.o"
+".\stm32f4xx_flash.o"
+".\stm32f4xx_can.o"
+".\stm32f429i_discovery.o"
+".\stm32f429i_discovery_lcd.o"
+".\stm32f429i_discovery_sdram.o"
+--ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\lab1.map" -o .\lab1.axf
