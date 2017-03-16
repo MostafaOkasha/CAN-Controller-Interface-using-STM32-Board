@@ -1,5 +1,6 @@
 # CAN-Controller-Interface-using-STM32-Board
 #### Note: TA station here is the Main Station we are trying to communicate with
+#### Note2: STM32F429I-Discovery_FW_V1.0.1 needs to be in the same directory
 Using the STM32 CAN and an external CAN transceiver to communicate with the MAIN Station to send and receive messages.  There are also other Master Nodes present to communicate with the Main Station. More details provided in the document. Implementation using C++ code on Uvision4
 
 # Brief note about Controller Area Networks:
